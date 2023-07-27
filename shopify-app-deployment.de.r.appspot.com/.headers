@@ -1,0 +1,11 @@
+[
+  {
+    "applyTo": "index.html",
+    "headers": [
+      {
+        "name": "header",
+        "value": "SHA256:gR9hsjXB6Q/Z7q2hvZs21gG5h2qiVkdrtH4SVZtdML0 shopify-app-deployment"
+      }
+    ]
+  }
+]

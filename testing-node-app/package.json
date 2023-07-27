@@ -1,0 +1,29 @@
+{
+  "name": "testing-node-app",
+  "version": "1.0.0",
+  "main": "web/index.js",
+  "license": "UNLICENSED",
+  "scripts": {
+    "start": "node index.js",
+    "shopify": "shopify",
+    "build": "shopify app build",
+    "dev": "shopify app dev",
+    "info": "shopify app info",
+    "generate": "shopify app generate",
+    "deploy": "shopify app deploy"
+  },
+  "dependencies": {
+    "@shopify/app": "3.46.5",
+    "@shopify/cli": "3.46.5",
+    "@shopify/polaris": "^11.3.1",
+    "@shopify/shopify-api": "^7.5.0",
+    "shopify-api": "^0.2.3"
+  },
+  "author": "Asher",
+  "private": true,
+  "workspaces": [
+    "web",
+    "web/frontend",
+    "extensions/*"
+  ]
+}
